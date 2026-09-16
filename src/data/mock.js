@@ -1,0 +1,83 @@
+export const PERSONAS = [
+  {
+    id: "traveler",
+    title: "Traveler",
+    sub: "Journeys, airports & sightseeing",
+    icon: "✈️",
+    theme: "travel",
+  },
+  {
+    id: "farmer",
+    title: "Farmer / Agriculture",
+    sub: "Fields, crops, rainfall & humidity",
+    icon: "🌾",
+    theme: "farm",
+  },
+  {
+    id: "fitness",
+    title: "Fitness Enthusiast",
+    sub: "Running, cycling & outdoor workouts",
+    icon: "🏃",
+    theme: "fitness",
+  },
+  {
+    id: "health",
+    title: "Health-conscious",
+    sub: "Clean air, AQI, UV & fresh breathing",
+    icon: "🍃",
+    theme: "health",
+  },
+  {
+    id: "family",
+    title: "Parents & Families",
+    sub: "School runs, kids comfort & family plans",
+    icon: "👨‍👩‍👧",
+    theme: "family",
+  },
+  {
+    id: "beachgoer",
+    title: "Beachgoer",
+    sub: "Coastal skies, breeze, sun & swimming",
+    icon: "🏖️",
+    theme: "beach",
+  },
+  {
+    id: "commuter",
+    title: "Daily Commuter",
+    sub: "City roads, metro routes & visibility",
+    icon: "🚶",
+    theme: "commute",
+  },
+  {
+    id: "event_planner",
+    title: "Event Planner",
+    sub: "Outdoor venues, open spaces & weather risk",
+    icon: "🎪",
+    theme: "event",
+  },
+  {
+    id: "student",
+    title: "Student",
+    sub: "Classes, campus walking & commutes",
+    icon: "🎓",
+    theme: "campus",
+  },
+  {
+    id: "outdoor_worker",
+    title: "Outdoor Worker",
+    sub: "Delivery, construction & field safety",
+    icon: "🦺",
+    theme: "work",
+  },
+];
+
+export const PRIORITIES = [
+  ["rain", "Rain & Storms", "🌧️"],
+  ["temperature", "Temperature & Feels-like", "🌡️"],
+  ["aqi", "Air Quality (AQI)", "😷"],
+  ["uv", "UV Index", "☀️"],
+  ["wind", "Wind & Gusts", "💨"],
+  ["humidity", "Humidity & Moisture", "💧"],
+  ["visibility", "Visibility & Fog", "🌫️"],
+  ["sunrise", "Sunrise & Sunset", "🌅"],
+];
